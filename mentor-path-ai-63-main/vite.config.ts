@@ -2,11 +2,9 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   tanstackStart: {
-<<<<<<< HEAD
     spa: {
       enabled: true,
     },
-=======
     server: {
       entry: "server",
     },
@@ -24,7 +22,6 @@ export default defineConfig({
       serverDir: ".output/server",
       publicDir: ".output/public",
     },
->>>>>>> 0c597a4d7a382b0328d3abefa3d56a0b61d39ce2
   },
 
   nitro: {
