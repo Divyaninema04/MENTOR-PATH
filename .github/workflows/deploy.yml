@@ -46,7 +46,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: mentor-path-ai-63-main/.output/public
+          path: mentor-path-ai-63-main/dist
 
   deploy:
     needs: build
